@@ -10,7 +10,7 @@ Input:
 ```
 Output:
 ```
-\< ip.src, port.src, ip.dst, port.dst, protocol \>, flow_label
+<ip.src, port.src, ip.dst, port.dst, protocol>, flow_label
 ```
 
 ## Config file
