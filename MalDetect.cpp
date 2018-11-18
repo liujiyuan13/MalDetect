@@ -99,10 +99,6 @@ void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *pa
         char flow_id_str[100];
         traffic.get_flow_id_str(pos, flow_id_str);
         printf("<%s, tls>: %s\n", flow_id_str, hp.labels[predict]);
-//        struct timeval t;
-//        gettimeofday(&t, NULL);
-//        double cur_ts = t.tv_sec + t.tv_usec*1e-6;
-//        printf(", %lf\n", cur_ts);
     }else{
         model.update(sample);
     }

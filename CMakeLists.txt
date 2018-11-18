@@ -3,11 +3,6 @@ project(MalDetect)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(INC_DIR /usr/local/include)
-set(LINK_DIR /usr/local/bin)
-
-include_directories(${INC_DIR})
-link_directories(${LINK_DIR})
 link_libraries(pcap crypto)
 
 add_executable(MalDetect_cpp MalDetect.cpp MalDetect.h

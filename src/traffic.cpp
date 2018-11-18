@@ -785,13 +785,6 @@ int Traffic::process_tls_records(u_char *cur_tls_record, int pos, int len_remain
             for(int i=0; i< sizeof(Records[pos].tls_version)/ sizeof(int); i++){
                 if (Records[pos].tls_version[i] == 1) {
 
-                    //used for measure the response time
-
-//                    struct timeval t;
-//                    gettimeofday(&t, NULL);
-//                    double cur_ts = t.tv_sec + t.tv_usec*1e-6;
-//                    printf("%lf, %lf, %lf", first_packet_ts, cur_packet_ts, cur_ts);
-
                     return pos;
                 }
             }
