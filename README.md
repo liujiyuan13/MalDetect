@@ -1,10 +1,8 @@
 
 # MalDetect: A Structure of Encrypted Malware Traffic Detection
-========
 This is the original implementation of the MalDetect [1]. MalDetect was programed in C++ language and here are some related instructions.
 
 ## Usage
-====
 Input:
 ```
 - no arguements
@@ -16,7 +14,6 @@ Output:
 ```
 
 ## Config file
-======
 All the settings of MalDetect are passed via the config file. You can find it in "conf" folder. Below are the meanings of each parameters.
 Tree:
 - maxDepth: maximum depth of a tree
@@ -34,7 +31,6 @@ Class:
 - label{i}: the str of class i
 
 ## Install
-=======
 The following packages should be firstly installed:
 - libpcap: sudo apt-get install libpcap-dev
 - libssl: sudo apt-get install libssl-dev
@@ -43,6 +39,5 @@ The following packages should be firstly installed:
 We developed this tool with "Clion", so the configuration file is "CMakeLists.txt", in which you can find the details, such as libraries. In our research, Ubuntu 16.04 was used.
 
 ## Reference
-======
 [1] 
 [2]
