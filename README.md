@@ -1,3 +1,9 @@
+# !!!
+# Please use the well-formated code: git@github.com:liujiyuan13/MalDetect-code.git
+
+
+
+
 
 # MalDetect: A Structure of Encrypted Malware Traffic Detection
 This is the original implementation of the MalDetect [1]. MalDetect was programed in C++ language and here are some related instructions.
